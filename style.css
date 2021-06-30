@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+.Logo{
+    position: absolute;
+    top: 2rem;
+    height: 5rem ;
+    width: auto;
+    display: flex;
+    justify-content: start;
+
+}
+.nav1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 6rem;
+    position: absolute;
+    top: 7rem;
+}
+.menu{
+    margin: .2rem;
+    font-size: 2rem;
+
+}
+
+.menuitem {
+    padding: .5rem;
+    text-decoration: none;
+    font-family: serif;
+    font-weight:300;
+    color: seashell;
+    margin-top: 1rem;
+    flex-basis: 3rem;
+    margin-right: 2rem;
+    
+}
+.imgbox{
+    
+}
+
+.navimg{
+    width: 100%;
+    height: 100%;
+}
+
+.Heading1{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.para{
+    text-align: center;
+}
+.card{
+    width: 25rem;
+    height: auto !important;
+
+
+}
+.card-text{
+    font-weight: bold;
+    font-size: 5rem;
+    
+}
+.btn-primary{
+    width: 100%;
+    background-color: black !important;
+    color: white;
+    
+}
+.card-title{
+    font-size: 3rem;
+}
+
+.foodcard{
+    margin-top: 5rem;
+    
+}
+
+.chinesebox{
+    margin-top: 15rem;
+}
+
+.chinese{
+    width: 100%;
+    height: 30rem;
+    opacity: 0.5;
+}
+
+.onpicphoto{
+   width: 41%;
+   position: absolute;
+   top: 150rem;
+
+}
+
+.onpic{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-div{
+display: flex;
+justify-content: center;
+
+}
+
+.fheading{
+    text-align: center;
+    padding: 10rem;
+    
+}
+.fheading h1{
+    font-size: 7rem;
+    color: rgb(199, 10, 10);
+}
+.row-div{
+    width: 50rem;
+    font-weight: 900;
+    
+}
+
+input ,button{
+    
+    height: 5rem;
+    font-weight: 900;
+      
+}
+
+button{
+    background-color: rgb(101, 177, 2);
+    color: seashell;
+}
